@@ -1,22 +1,32 @@
 package com.devsuperior.desmovie.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_movie")
 public class Movie {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String title;
 	private Double score;
-	privete Integer count;
-	private Strig image;
-	
+	private Integer count;
+	private String image;
+
 	public Movie() {
-		
 	}
 
-	public Movie(Long id, String title, Double score, privete integer, Strig image) {
+	public Movie(Long id, String title, Double score, Integer count, String image) {
+		super();
 		this.id = id;
 		this.title = title;
 		this.score = score;
-		Integer = integer;
+		this.count = count;
 		this.image = image;
 	}
 
@@ -44,23 +54,21 @@ public class Movie {
 		this.score = score;
 	}
 
-	public privete getInteger() {
-		return Integer;
+	public Integer getCout() {
+		return count;
 	}
 
-	public void setInteger(privete integer) {
-		Integer = integer;
+	public void setCout(Integer count) {
+		this.count = count;
 	}
 
-	public Strig getImage() {
+	public String getImage() {
 		return image;
 	}
 
-	public void setImage(Strig image) {
+	public void setImage(String image) {
 		this.image = image;
 	}
 	
 	
 }
-	
-	

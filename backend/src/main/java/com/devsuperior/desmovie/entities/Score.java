@@ -1,7 +1,7 @@
 package com.devsuperior.desmovie.entities;
 
-import javax.persistence.Entity;
 import javax.persistence.EmbeddedId;
+import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
@@ -16,22 +16,18 @@ public class Score {
 	public Score() {
 	}
 
-	public void setMovies(Movies movies) {
-		id.setMovies(movies);
-	}
-	
-	public void setUser(User user) {
-		id.setUser(user);
+	public void setMovie(Movie movie) {
+		id.setMovies(movie);
 	}
 	
 	public ScorePK getId() {
 		return id;
 	}
-
+	
 	public void setId(ScorePK id) {
 		this.id = id;
 	}
-
+	
 	public Double getValue() {
 		return value;
 	}
