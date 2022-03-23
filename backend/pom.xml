@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.devsuperior </groupId>
-	<artifactId>desmovie</artifactId>
+	<artifactId>dsmovie</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>desmovie</name>
+	<name>dsmovie</name>
 	<description>Projeto criado na semana SpringReact </description>
 	<properties>
 		<java.version>17</java.version>

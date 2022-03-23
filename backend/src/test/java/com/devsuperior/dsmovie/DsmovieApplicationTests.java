@@ -1,10 +1,10 @@
-package com.devsuperior.desmovie;
+package com.devsuperior.dsmovie;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DesmovieApplicationTests {
+class DsmovieApplicationTests {
 
 	@Test
 	void contextLoads() {

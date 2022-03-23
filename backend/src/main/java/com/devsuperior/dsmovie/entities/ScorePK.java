@@ -1,4 +1,4 @@
-package com.devsuperior.desmovie.entities;
+package com.devsuperior.dsmovie.entities;
 
 import java.io.Serializable;
 
