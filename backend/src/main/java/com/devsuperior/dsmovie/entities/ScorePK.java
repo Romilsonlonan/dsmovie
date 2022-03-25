@@ -18,15 +18,14 @@ public class ScorePK implements Serializable{
 	@JoinColumn(name = "user_id")
 	private	User user;
 	
-	public ScorePK() {
-		
+	public ScorePK() {	
 	}
 
-	public Movie getMovies() {
+	public Movie getMovie() {
 		return movie;
 	}
 
-	public void setMovies(Movie movie) {
+	public void setMovie(Movie movie) {
 		this.movie = movie;
 	}
 
